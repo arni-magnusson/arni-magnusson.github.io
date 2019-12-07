@@ -1,0 +1,16 @@
+    body {font-family:sans-serif; font-size:0.9em}
+div.menu {float:left; font-weight:bold; margin-left:2em; margin-top:3em; text-align:center}
+div.text {float:left; margin-bottom:3em; margin-left:4em; margin-right:2em; margin-top:2em; max-width:80ex}
+      dl {margin-bottom:0em; margin-top:0em}
+      h1 {font-size:1em; margin-bottom:0.2em; margin-top:2em}
+      h2 {color:gray; font-size:0.9em; font-weight:normal; margin-bottom:0.2em; margin-top:0.8em}
+      li {margin-bottom:0.4em; margin-top:0.4em}
+      ol {margin-top:0.3em}
+       p {margin-bottom:0.4em; margin-top:0.4em}
+p.indent {margin-left:1em}
+ p.title {font-size:2em; margin-bottom:0em; margin-top:0em}
+     pre {margin-bottom:0em; margin-left:1em; margin-top:0em}
+      td {padding-bottom:0.2; empadding-top:0.2em}
+td.right {text-align:right}
+      ul {margin-top:0.3em}
+   .gray {color:gray}

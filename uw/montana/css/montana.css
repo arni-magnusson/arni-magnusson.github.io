@@ -1,0 +1,67 @@
+                 body {background-image:url("../jpg/ledur.jpg"); margin:1em}
+              address {clear:both; color:#ddbb77; text-align:center}
+
+          div.valmynd {float:left; font-weight:bold; padding-left:0.5em;
+                       padding-right:0.5em; padding-top:3em}
+   div.valmynd a:link {color:#ddbb77}
+div.valmynd a:visited {color:#ddbb77}
+          div.hnappar {color:#ddbb77; float:left; line-height:1.8;
+                       padding-left:2em; padding-top:1em}
+             div.blad {background-color:#ddbb77; border-style:solid;
+                       border-width:1px; float:left; font-size:1.05em;
+                       margin:2.5em; padding:1.5em; width:60%}
+      div.blad a:link {color:black}
+   div.blad a:visited {color:black}
+          div.blad h1 {font-size:1.8em; margin-top:0em; padding-left:2.5%;
+                       padding-right:2.5%}
+          div.blad h2 {font-size:1em; font-style:italic; padding-left:2.5%;
+                       padding-right:2.5%}
+         div.blad img {border-style:none; padding-left:2em;
+                       vertical-align:middle}
+          div.blad li {line-height:1.5em; margin-top:1.0em; padding-right:2.5%}
+           div.blad p {line-height:1.5em; padding-left:5%; padding-right:2.5%}
+        p.tolvupostur {font-family:monospace; font-size:0.9em; padding-top:1em;
+                       padding-bottom:1em}
+
+              /* Kort */
+             div.kort {color:#ddbb77; font-size:1.05em}
+      div.kort a:link {color:#ddbb77}
+   div.kort a:visited {color:#ddbb77}
+         div.kort img {border-style:none}
+           div.kort p {padding-left:2em; padding-right:2em; text-align:justify}
+       div.kort table {margin-left:auto; margin-right:auto; width:924px}
+          div.kort td {text-align:right}
+
+        /* Svipmyndir */
+           div.larett {background-color:#f0f7f7; border-color:#d0d7d7;
+                       border-style:solid; border-width:1px; float:left;
+                       margin:40px; padding:15px; width:320px;
+                       text-align:center}
+          div.lodrett {background-color:#f0f7f7; border-color:#d0d7d7;
+                       border-style:solid; border-width:1px; float:left;
+                       margin:40px; padding:15px; width:240px;
+                       text-align:center}
+      div.larett  img {border-color:#e0e7e7; border-style:solid;
+                       border-width:1px}
+      div.lodrett img {border-color:#e0e7e7; border-style:solid;
+                       border-width:1px}
+        div.larett  p {font-family:sans-serif; font-size:0.8em; margin-top:10px;
+                       margin-bottom:0px}
+        div.lodrett p {font-family:sans-serif; font-size:0.8em; margin-top:10px;
+                       margin-bottom:0px}
+
+            /* Myndir */
+            div.stika {padding-bottom:2em}
+     div.stika a:link {color:#ddbb77; text-decoration:none}
+  div.stika a:visited {color:#ddbb77; text-decoration:none}
+        div.stika img {border-style:none; vertical-align:middle}
+          div.stika p {color:#ddbb77; font-family:sans-serif; left:50%;
+                       margin-top:0em; position:absolute}
+        div.stika p.x {margin-left:-300px; width:60px}
+    div.stika p.fyrri {margin-left:-240px; width:180px}
+   div.stika p.thessi {margin-left:-60px; width:180px; font-weight:bold;
+                       text-align:center}
+   div.stika p.naesta {margin-left:120px; width:180px; text-align:right}
+             div.mynd {text-align:center}
+           div.mynd p {color:#ddbb77; font-family:sans-serif; font-size:0.9em;
+                       text-align:right}

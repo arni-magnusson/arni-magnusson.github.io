@@ -1,0 +1,15 @@
+    body {font-family:sans-serif}
+div.menu {float:left; font-weight:bold; margin:1em; text-align:center}
+div.text {float:left; margin-left:4em; margin-bottom:1em; width:60%}
+     img {margin-top:2.0em; margin-bottom:1.5em}
+      h1 {font-size:2.2em; margin-top:0}
+      h2 {font-size:1.0em; margin-top:2em; margin-bottom:0.2em}
+       p {font-size:0.9em; margin-top:0; margin-bottom:0.3em}
+p.biblio {margin-left:3em; text-indent:-2em}
+p.indent {margin-left:1em}
+  p.menu {font-size:1.0em; text-align:center; margin-bottom:0.5em}
+p.school {text-align:center}
+      td {font-size:0.9em}
+      ul {margin-top:0; margin-bottom:0.3em}
+      li {font-size:0.9em; margin-left:-0.7em}
+  .right {text-align:right}

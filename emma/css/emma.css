@@ -1,0 +1,30 @@
+              body {background-image:url("../jpg/bakgrunnur.jpg"); margin:1em}
+           address {clear:both; color:#663300; padding-top:2em;
+                    text-align:center}
+
+          div.blad {background-color:#eedd88; border-style:solid;
+                    border-width:1px; float:left; font-size:1.05em;
+                    margin:2.5em; padding:1.5em; width:60%}
+   div.blad a:link {color:black}
+div.blad a:visited {color:black}
+       div.blad h1 {font-size:1.8em; margin-top:0em; padding-left:2.5%;
+                    padding-right:2.5%}
+       div.blad h2 {font-size:1em; font-style:italic; padding-left:2.5%;
+                    padding-right:2.5%}
+      div.blad img {border-style:none; padding-left:2em; vertical-align:middle}
+       div.blad li {line-height:1.5em; margin-top:1.0em; padding-right:2.5%}
+        div.blad p {line-height:1.5em; padding-left:5%; padding-right:2.5%}
+
+     /* Svipmyndir */
+        div.larett {background-color:#f0f7f7; border-color:#d0d7d7;
+                    border-style:solid; border-width:1px; float:left;
+                    margin:40px; padding:15px; width:320px; text-align:center}
+       div.lodrett {background-color:#f0f7f7; border-color:#d0d7d7;
+                    border-style:solid; border-width:1px; float:left;
+                    margin:40px; padding:15px; width:240px; text-align:center}
+   div.larett  img {border-color:#e0e7e7; border-style:solid; border-width:1px}
+   div.lodrett img {border-color:#e0e7e7; border-style:solid; border-width:1px}
+     div.larett  p {font-family:sans-serif; font-size:0.8em; margin-top:10px;
+                    margin-bottom:0px}
+     div.lodrett p {font-family:sans-serif; font-size:0.8em; margin-top:10px;
+                    margin-bottom:0px}

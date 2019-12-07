@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>R workshop</title>
+<link rel="stylesheet" href="../css/r.css">
+<body>
+
+<div class="menu">
+  <p><img src="../png/r.png" alt="R">
+  <p class="title">workshop
+  <p class="menu"><a href="index.html">Home</a>
+  <p class="menu"><a href="syllabus.html">Syllabus</a>
+  <p class="menu"><a href="references.html">References</a>
+</div>
+
+<div class="text">
+  <h1>Help pages</h1>
+  <p>The main reference in R is the built-in help system. For example, typing
+  <pre>?read.table</pre>
+  <pre>?plot</pre>
+  <p>will not only explain how those two functions work, with examples, but also
+  provide cross-references to related help pages. This usually solves specific
+  problems that arise when using R. Other ways to find help pages include:
+  <pre>apropos("plot")</pre>
+  <pre>help.search("plot")</pre>
+  <pre>help(package="graphics")</pre>
+  <h1>Manuals</h1>
+  <p><a href="http://cran.r-project.org/doc/manuals/R-intro.pdf">An Introduction
+  to R</a> is the official R user manual, covering similar topics as the first
+  day of our workshop (data objects, input/output, linear models, plots,
+  packages), as well as writing your own R functions. It is not written as a
+  tutorial for the absolute beginner, but as a reference for someone who already
+  knows the basics of R and would like to learn more.
+  <p><a href="http://cran.r-project.org/other-docs.html">User-contributed
+  tutorials</a> are generally written in a less technically challenging style.
+  Among the many contributions are two compact reference cards, and tutorials in
+  <a href="http://cran.r-project.org/other-docs.html#nenglish">non-English</a>
+  languages. The <a
+  href="http://cran.r-project.org/doc/contrib/Lam-IntroductionToR_LHL.pdf">tutorial</a>
+  by Longhow Lam seems especially approachable.
+  <p><a href="http://cran.r-project.org/manuals.html">Technical manuals</a> by
+  the R development team cover topics like import/export and R configuration in
+  great detail.
+  <h1>Books</h1>
+  <p>There is a wealth of <a
+  href="http://www.r-project.org/doc/bib/R-publications.html">books related to
+  R</a>. If you use R a lot, you will probably end up buying a book or two, but
+  the free manuals and help pages are enough to learn the basics.
+  <h1>Journals</h1>
+  <p><a href="http://journal.r-project.org">The R Journal</a> and the <a
+  href="http://www.jstatsoft.org">Journal of Statistical Software</a> are both
+  peer-reviewed journals dedicated to the use of R.
+  <h1>Open source</h1>
+  <p>For experienced R users, the ultimate reference on how a statistical method
+  works is to look at the function source code. For example, typing
+  <pre>lm</pre>
+  <p>will show the exact calculations behind linear models in R.
+  <p>This access to the source code is of critical value for more complex
+  statistical models. Open source principles (making a thorough description of
+  methods publicly available) have been a foundation of scientific research for
+  centuries.
+  <h1>Web</h1>
+  <p>Sometimes the quickest path to solving an R problem is a normal web search
+  in your browser, which will cover the <a
+  href="http://cran.r-project.org/doc/FAQ/R-FAQ.html">FAQ</a> and several <a
+  href="http://www.r-project.org/mail.html">mailing lists</a>. Another approach
+  is to search specific websites from R by typing:
+  <pre>RSiteSearch("plot")</pre>
+</div>

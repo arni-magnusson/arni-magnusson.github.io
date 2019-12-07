@@ -1,0 +1,38 @@
+#!/bin/bash
+shopt -s expand_aliases
+########################################################################################################################
+###                                                                                                                    #
+### Script:   R [--default-packages=pkg1,pgk2] [options] [< infile] [> outfile]                                        #
+###                                                                                                                    #
+### Purpose:  Start R in $HOME, using --quiet --save if no args and providing special arg --default-packages           #
+###                                                                                                                    #
+### Args:     --default-packages is a comma-separated list of packages to load (NULL for package:base only)            #
+###           See R documentation for other options                                                                    #
+###                                                                                                                    #
+### Notes:    If no args, use --quiet --save                                                                           #
+###           If any args, interpret --default-packages and let user decide if --quiet --save is appropriate           #
+###           This means that if args but not --default-packages, this script is exactly like original R, except the   #
+###           initial working directory is always $HOME                                                                #
+###                                                                                                                    #
+### Requires: R                                                                                                        #
+###                                                                                                                    #
+### Returns:  Starts R                                                                                                 #
+###                                                                                                                    #
+########################################################################################################################
+
+cd  # start in $HOME
+export TZ=UTC
+
+# (1) no args, (2) --default-packages, (3) other
+if [[ -z $* ]]; then
+  args="--quiet --save"
+elif [[ "$*" =~ --default-packages ]]; then
+  pkg_arg=`expr "$*" : '.*\(--default-packages=[^ ]*\)'`
+  pkg="${pkg_arg/--default-packages=/}"
+  export R_DEFAULT_PACKAGES=$pkg
+  args=${*/--default-packages=[^ ]*/}  # must not be quoted...
+else
+  args="$*"
+fi
+
+`which -a R | tail -1` $args

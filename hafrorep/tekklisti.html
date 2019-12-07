@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="is">
+<meta charset="utf-8">
+<title>Tékklisti</title>
+<link rel="stylesheet" href="../css/hafro.css">
+<body>
+
+<h1>Tékklisti</h1>
+
+<p><em>Kafli svissaður úr Publisher yfir í LaTeX</em>
+
+<p>Opna skjal í Publisher, velja allt, afrita í ritil, vista sem
+<code>texti.tex</code>.
+
+<ol style="line-height:2">
+  <li>Breyta <code>%</code> í <code>\%</code>
+  <li>Eyða <code>^_</code> (optional hyphen)
+  <li>Breyta <code>&ndash;</code> (tilstriki) í <code>--</code> (tvö bandstrik)
+  <li>Breyta <code>_</code> (nonbreaking space) ýmist í bil (milli orða) eða
+    <code>\,</code> (milli þúsund og hundrað)
+  <li>Breyta <code>þús.</code> í <code>þús.\</code> og <code>thous.</code> í
+    <code>thous.\</code>
+  <li>Lesa yfir og breyta <code>4 200</code> í <code>4\,200</code> (án
+    dollaramerkis)
+  <li>Eyða tvöföldu stafabili og bili í enda línu
+  <li>Breyta fyrirsögnum í <code>\subsection</code> o.s.frv.
+  <li>Lesa yfir og breyta tilvísunum í töflur og myndir (<code>\ref{}</code> og
+    <code>\tabsection</code>, tegundanúmer verði hvergi nema í preamble)
+  <li>Lesa yfir og leita að villum sem komu úr upprunaskjalinu, t.d. eyða
+    bandstrikum sem áttu að vera <code>^-</code> (optional hyphen)
+</ol>
+
+<p>Jafna LaTeX inntaksskrá í 80 stafa breidd.
+
+<p>Á þessum tímapunkti má búa til afrit af skjalinu og kalla
+<code><em>tegund</em>_2014.tex</code>.
+
+<p>Næsta skref er að gera <code><em>tegund</em>_2014.tex</code> að
+<code>\documentclass{hafrorep}</code> skjali sem hægt er að þýða yfir í PDF. Þá
+er einfaldast að nota efstu línurnar úr sýnidæminu <code>ufsi_2013.tex</code>
+til hliðsjónar.
+
+<p>Ekki stilla útlit (blaðsíðuskiptingar, lóðrétt bil, línuskiptingar) heldur
+skilja <code>\hyphenate{}</code> eftir tómt, tilbúið fyrir lokaumbrot.
+
+<p>Nú ætti að vera hægt að skjalið með <code>pdflatex</code> og lesa í PDF
+skjalinu hvort eitthvað hafi misfarist. Gæti þurft brjóstletur
+<code>\super{}</code>, hnéletur <code>\sub{}</code>, skáletur
+<code>\textit{}</code>, undirstrik <code>\u{}</code> eða álíka.
+
+<p>Lokaskrefið er að bæta inn töflum og myndum. Staðsetja þær (með
+<code>htbp</code>) strax á eftir þeim efnisgreinum þar sem vísað er í þær.
+Sýnidæmið <code>ufsi_2013.tex</code> inniheldur bæði myndir og töflur.
+
+<p><br>
+
+<p><a href="index.html">back</a>

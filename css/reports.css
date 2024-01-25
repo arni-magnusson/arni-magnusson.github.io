@@ -1,3 +1,4 @@
 @import "main.css";
 
+body {max-width:80%}
 dd {margin-left:4em; margin-bottom:0.4em}
